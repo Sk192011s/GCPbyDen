@@ -29,8 +29,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "proromeokey68"
-          entrypoint: "./_fresh/server.js"
-          root: ""
+          project: "prokey68kairizy"
+          entrypoint: "main.ts"
+          root: "."
           
           
